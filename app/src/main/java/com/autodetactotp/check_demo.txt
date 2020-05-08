@@ -1,0 +1,28 @@
+OTP Detection using SMSRetrievalAPI
+
+Steps to check demo : 
+step 1 : 
+run application and get key hash .
+
+> get key hash from log :
+  Log.d : text search : "key_hash"
+
+step 2 :
+click on "sms retriever api" to start smsRetriverListener
+
+step 3 : 
+send sms in particular format with application keyhash
+
+working.....  :-) 
+
+
+NOTE : From Server SMS format should follow :-
+A) prefix : <#>
+B) content : Your otp code is: 45678
+C) postfix : application keyhash
+
+for example :
+<#> Your otp code is : 45678
+l7cASc4+1E3
+
+**change only otp in it just to check with demo
